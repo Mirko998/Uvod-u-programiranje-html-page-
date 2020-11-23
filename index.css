@@ -1,7 +1,60 @@
 h1{
-    color:blue;
+    color:rgb(128, 128, 128);
 }
 
 img{
     border-radius: 50%;
+    width: 30%;
+    height: 50%;
+    border: 2px dotted gray;
 }
+
+body{
+    background-image: url("./background.jpeg");
+}
+
+p{
+    font-size: 1.5rem;
+    color: lavender;
+}
+
+.projects{
+    font-size: 1.2rem;
+    color: lightgray;
+    float: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f359;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+    color: lightseagreen;
+  }
+  
+  li a.active {
+    color: rgba(255, 255, 255, 0.623);
+    background-color: #313131;
+  }
+
+  #link{
+      color: lightslategray;
+  }
